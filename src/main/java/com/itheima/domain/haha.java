@@ -10,4 +10,11 @@ public class haha {
     public void setSex(String sex) {
         this.sex = sex;
     }
+
+    @Override
+    public String toString() {
+        return "haha{" +
+                "sex='" + sex + '\'' +
+                '}';
+    }
 }
