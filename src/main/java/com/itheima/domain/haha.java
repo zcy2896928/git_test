@@ -12,6 +12,13 @@ public class haha {
     }
 
     @Override
+    public String toString() {
+        return "haha{" +
+                "sex='" + sex + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -25,4 +32,5 @@ public class haha {
     public int hashCode() {
         return sex != null ? sex.hashCode() : 0;
     }
+
 }
